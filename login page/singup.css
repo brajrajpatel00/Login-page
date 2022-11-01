@@ -1,0 +1,99 @@
+body {
+    background-color: #344a72;
+    font-family: "Roboto", sans-serif;
+    
+  }
+  
+  .signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: #49c1a2;
+    font-weight: 900;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  form input:hover {
+    border: 2px solid #49c1a2;
+
+  }
+  input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+   
+  input[type="submit"]:hover{
+    background-color: #217a64
+  }
+
+
+  .termcond {
+    text-align: center;
+    padding-top: 7px;
+
+    font-size: 15px;
+    
+  }
+  .termcond  a{
+    text-decoration: none;
+  }
+  .termcond  a:hover{
+    color: rgb(9, 9, 245);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .para-2 a {
+    color: #49c1a2;
+    text-decoration: none;
+  }
+  .para-2 a:hover {
+    color: #acecdc;
+  }
+  
+  

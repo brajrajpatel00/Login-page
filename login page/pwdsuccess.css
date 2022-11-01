@@ -1,0 +1,102 @@
+body {
+    background-color: #344a72;
+    font-family: "Roboto", sans-serif;
+  }
+
+.login-box {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 130px;
+  }
+
+  img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    /* padding-top: 15px; */
+    
+  }
+  h1 span{
+    color: #49c1a2;
+  }
+
+  .login-box p {
+    text-align: center;
+   
+  }
+  .pro {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+  }
+  .pro{
+    margin-top: -10px;
+  }
+
+  form {
+    width: 300px;
+    margin-left: 39px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  form input:hover{
+    border: 2px solid  #49c1a2 ;
+  }
+
+  .cont {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .cont a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+
+  }
+ .cont:hover{
+    background-color: #278b72;
+    
+  }
+
+  .login-box p a{
+    text-decoration: none;
+    color: #12a784;
+  }
+  .login-box p a:hover{
+
+    color:#045c46;
+  }
